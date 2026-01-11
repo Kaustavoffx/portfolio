@@ -1,0 +1,6 @@
+.stat-number {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 5px;
+    font-weight: bold;
+}

@@ -2,7 +2,7 @@
 :root {
     --bg: #030712;
     --card-bg: rgba(17, 24, 39, 0.6);
-    --primary: #3b82f6;
+    --primary: #2563eb;
     --accent: #10b981;
     --text: #f9fafb;
     --text-muted: #9ca3af;
@@ -162,6 +162,7 @@ h1 {
     letter-spacing: -3px;
     margin-bottom: 20px;
     background: linear-gradient(120deg, #fff, #94a3b8);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -194,10 +195,11 @@ h1 {
     min-width: 180px;
 }
 
-.stat-box h3 {
+.stat-number {
     font-size: 2rem;
     color: var(--primary);
     margin-bottom: 5px;
+    font-weight: 700;
 }
 
 .stat-box p {

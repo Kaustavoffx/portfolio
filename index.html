@@ -7,8 +7,28 @@
     <meta name="description"
         content="Kaustav Chowdhury - Cloud Architect, GenAI Innovator, and Student Developer. Exploring the bleeding edge of AI.">
     <title>Kaustav | System Online</title>
+    <!-- Performance: Preconnect to font domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- SEO & Social: Open Graph -->
+    <meta property="og:title" content="Kaustav | System Online">
+    <meta property="og:description"
+        content="Kaustav Chowdhury - Cloud Architect, GenAI Innovator, and Student Developer. Exploring the bleeding edge of AI.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kaustavoffx.github.io/portfolio/">
+    <meta property="og:image" content="https://kaustavoffx.github.io/portfolio/assets/og-image.png">
+    <!-- Verify this image exists or use a generic one -->
+    <link rel="canonical" href="https://kaustavoffx.github.io/portfolio/">
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Performance: Load FontAwesome non-blocking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </noscript>
+
     <link
         href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=JetBrains+Mono:wght@400;700&display=swap"
         rel="stylesheet">
@@ -43,25 +63,25 @@
 
             <div class="stats-grid">
                 <div class="stat-box tilt">
-                    <h3>102k+</h3>
+                    <div class="stat-number">102k+</div>
                     <p>Google Cloud Points</p>
                 </div>
                 <div class="stat-box tilt">
-                    <h3>Intern</h3>
+                    <div class="stat-number">Intern</div>
                     <p>@ SkillCraft Tech</p>
                 </div>
                 <div class="stat-box tilt">
-                    <h3>#1 Rank</h3>
+                    <div class="stat-number">#1 Rank</div>
                     <p>Tata Essay Comp</p>
                 </div>
             </div>
 
             <div class="cta-group">
                 <a href="#projects" class="btn-neon">View Operations</a>
-                <a href="https://github.com/Kaustavoffx" target="_blank" class="btn-ghost"><i
-                        class="fa-brands fa-github"></i> GitHub</a>
-                <a href="https://www.linkedin.com/in/kaustav-chowdhury-771164397" target="_blank" class="btn-ghost"><i
-                        class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/Kaustavoffx" target="_blank" class="btn-ghost"
+                    aria-label="GitHub Profile"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/kaustav-chowdhury-771164397" target="_blank" class="btn-ghost"
+                    aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
             </div>
         </div>
     </section>
@@ -286,18 +306,22 @@
             <p>17yo Student @ Rathtala Fingapara High School (HS)</p>
             <p style="color: var(--text-muted); font-size: 0.9rem;">West Bengal, India • 11th Standard (PCM)</p>
             <div class="social-links">
-                <a href="https://www.linkedin.com/in/kaustav-chowdhury-771164397" class="s-btn"><i
+                <a href="https://www.linkedin.com/in/kaustav-chowdhury-771164397" class="s-btn" aria-label="LinkedIn"><i
                         class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://github.com/Kaustavoffx" class="s-btn"><i class="fa-brands fa-github"></i></a>
-                <a href="https://x.com/chowkaustav007" class="s-btn"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://instagram.com/kaustavchowdhury_08" class="s-btn"><i
+                <a href="https://github.com/Kaustavoffx" class="s-btn" aria-label="GitHub"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/chowkaustav007" class="s-btn" aria-label="X (Twitter)"><i
+                        class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://instagram.com/kaustavchowdhury_08" class="s-btn" aria-label="Instagram"><i
                         class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.threads.net/@kaustavchowdhury_08" class="s-btn"><i
+                <a href="https://www.threads.net/@kaustavchowdhury_08" class="s-btn" aria-label="Threads"><i
                         class="fa-brands fa-threads"></i></a>
-                <a href="https://www.youtube.com/@CodeGiant" class="s-btn"><i class="fa-brands fa-youtube"></i></a>
-                <a href="https://in.pinterest.com/Kaustavchowdhury9999/" class="s-btn"><i
+                <a href="https://www.youtube.com/@CodeGiant" class="s-btn" aria-label="YouTube"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a href="https://in.pinterest.com/Kaustavchowdhury9999/" class="s-btn" aria-label="Pinterest"><i
                         class="fa-brands fa-pinterest"></i></a>
-                <a href="mailto:kaustav.chowdhury9999@gmail.com" class="s-btn"><i class="fa-solid fa-envelope"></i></a>
+                <a href="mailto:kaustav.chowdhury9999@gmail.com" class="s-btn" aria-label="Email Me"><i
+                        class="fa-solid fa-envelope"></i></a>
             </div>
             <div class="copyright">
                 SYSTEM ID: KAUSTAV-DEV // VER 2026
@@ -305,7 +329,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
